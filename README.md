@@ -1,66 +1,145 @@
-# Excel Sales Dashboard
+# Wazir Coding Company --- Sales Executive Summary Dashboard
 
-### Interactive Business Intelligence & Sales Performance Analysis
+### Interactive Excel Business Intelligence & Sales Performance Analysis
 
 ## Project Overview
 
-This project presents an interactive Sales Dashboard developed using Microsoft Excel. It transforms raw sales data into meaningful business insights through data analysis, visualization, and performance monitoring.
+This project is an interactive sales performance dashboard built in
+Microsoft Excel for **Wazir Coding Company**. It converts
+transaction-level sales data into a visual executive summary, helping
+users monitor revenue, profitability, order volume, sales channels, and
+geographic performance.
 
-## Tools & Technologies
+The workbook is organized into three worksheets:
 
-- Microsoft Excel 2024
-- Power Query
-- Power Pivot
-- PivotTables & PivotCharts
-- DAX Measures
-- Excel Slicers & Timeline
+-   **Data** --- source sales records stored in an Excel table
+    (`SalesDataTable`).
+-   **Pivot_Table** --- PivotTable summaries used to aggregate and
+    analyze the data.
+-   **Dashboard** --- the interactive executive summary with KPI cards,
+    charts, a map, and slicers.
 
 ## Dashboard Preview
-<img width="758" height="430" alt="Screenshot 2026-11-07 205706" src="https://github.com/user-attachments/assets/a6b91f60-9807-4ca1-a45a-f2784683039c" />
+
+![Wazir Coding Company Sales Executive Summary
+Dashboard](Screenshot%202026-11-07%20205706.png)
 
 ## Key Performance Indicators (KPIs)
 
-- Total Revenue
-- Gross Profit
-- Gross Profit Margin
-- Total Orders
-- Total Unit Sold
-- COGS(Cost of Goods Sold)
+The dashboard displays these headline measures:
+
+  -----------------------------------------------------------------------
+  KPI                                 Meaning
+  ----------------------------------- -----------------------------------
+  Total Revenue                       Total sales value generated
+
+  Gross Profit                        Revenue remaining after deducting
+                                      Cost of Goods Sold
+
+  Gross Profit Margin                 Gross profit expressed as a
+                                      percentage of revenue
+
+  Total Orders                        Number of recorded orders
+
+  Total Units Sold                    Total quantity of products sold
+
+  COGS                                Cost of Goods Sold --- the direct
+                                      cost associated with the products
+                                      sold
+  -----------------------------------------------------------------------
+
+### KPI Snapshot
+
+The values shown in the supplied dashboard preview are:
+
+  Metric                  Displayed Value
+  --------------------- -----------------
+  Total Revenue                 \$645,223
+  Gross Profit                  \$296,384
+  Gross Profit Margin              45.94%
+  Total Orders                      2,707
+  Total Units Sold                  6,698
+  COGS                          \$348,839
+
+*These are the values visible in the preview and may change when
+dashboard filters are applied.*
 
 ## Dashboard Features
 
-- Monthly Revenue & Profit
-- Top 5 Country by Revenue
-- Revenue Share by Channel
-- Region Wise Comparison
-- Country Wise Map Chart
-  
-## Project Files
+-   **Monthly Revenue & Profit** --- compares monthly revenue with gross
+    profit across the year.
+-   **Top 5 Country by Revenue** --- ranks the five leading countries by
+    revenue.
+-   **Revenue Share by Channel** --- shows how revenue is distributed
+    across sales channels.
+-   **Region Wise Comparison** --- compares gross revenue across sales
+    regions.
+-   **Country Wise Map Chart** --- visualizes revenue geographically by
+    country.
+-   **Interactive slicers** --- filter the dashboard by Country,
+    Quarter, and Product Category.
 
-| File | Description |
-|---|---|
-| Excel Sales Dashboard.xlsx | Interactive Excel Dashboard |
-| Dashboard Preview.png | Dashboard Screenshot |
+## Tools & Excel Features
+
+-   Microsoft Excel
+-   Excel Tables
+-   PivotTables and PivotCharts
+-   Slicers and interactive filtering
+-   Dashboard layout and data visualization
 
 ## Skills Demonstrated
 
-- Data Cleaning and Preparation
-- Data Analysis
-- Data Modeling
-- Business Intelligence
-- Data Visualization
-- Dashboard Development
+-   Data organization and preparation
+-   Sales and profitability analysis
+-   KPI reporting
+-   PivotTable-based analysis
+-   Interactive dashboard development
+-   Data visualization
+-   Business intelligence and reporting
 
-## Project Objective
+## Business Value
 
-To convert raw sales data into an interactive reporting solution that helps businesses monitor performance, identify trends, and make informed decisions.
+The dashboard provides a consolidated view of sales performance. It can
+help users:
+
+-   Track revenue, gross profit, and gross margin.
+-   Compare monthly sales and profitability trends.
+-   Identify leading countries and regions.
+-   Understand which sales channels contribute most to revenue.
+-   Explore performance by quarter, country, and product category.
+
+## Project Files
+
+  ------------------------------------------------------------------------
+  File                                 Description
+  ------------------------------------ -----------------------------------
+  `Excel Sales Dashboard.xlsx`         Excel workbook containing the
+                                       source data, PivotTables, and
+                                       interactive dashboard
+
+  `Screenshot 2026-11-07 205706.png`   Screenshot preview of the dashboard
+  ------------------------------------------------------------------------
+
+## How to Use
+
+1.  Download `Excel Sales Dashboard.xlsx` from this repository.
+2.  Open it in Microsoft Excel with support for PivotTables, slicers,
+    and map charts.
+3.  Go to the **Dashboard** worksheet.
+4.  Use the Country, Quarter, and Product Category slicers to filter the
+    report.
+5.  Use the **Data** and **Pivot_Table** worksheets to explore the
+    underlying records and summaries.
+
+*For the best experience, open the workbook in the desktop version of
+Microsoft Excel. If the workbook's source data is changed, refresh the
+PivotTables and connections as appropriate.*
 
 ## Author
 
-**Nizam Wazir**
+**Nizam Wazir**\
+IT Professional \| Excel Dashboard Developer \| Aspiring Data Analyst
 
-IT Professional | Excel Dashboard Developer | Data Analyst
-
----
+------------------------------------------------------------------------
 
 Thank you for visiting my project!
