@@ -20,23 +20,21 @@ This project presents an interactive Sales Dashboard developed using Microsoft E
 
 ## Key Performance Indicators (KPIs)
 
-- Total Sales
-- Total Profit
-- Profit Margin
+- Total Revenue
+- Gross Profit
+- Gross Profit Margin
 - Total Orders
-- Average Order Value (AOV)
+- Total Unit Sold
+- COGS(Cost of Goods Sold)
 
 ## Dashboard Features
 
-- Monthly Sales Analysis
-- Product Performance Analysis
-- Sales by Product Category
-- Regional Profit Analysis
-- Sales Channel Analysis
-- Top 5 Products by Sales
-- Interactive Slicers and Filters
-- Dynamic Dashboard Reporting
-
+- Monthly Revenue & Profit
+- Top 5 Country by Revenue
+- Revenue Share by Channel
+- Region Wise Comparison
+- Country Wise Map Chart
+  
 ## Project Files
 
 | File | Description |
@@ -49,7 +47,6 @@ This project presents an interactive Sales Dashboard developed using Microsoft E
 - Data Cleaning and Preparation
 - Data Analysis
 - Data Modeling
-- DAX Calculations
 - Business Intelligence
 - Data Visualization
 - Dashboard Development
